@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모아모아 — 데이터 삭제 요청 | Moa Moa — Data Deletion</title>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:'Pretendard',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+      color:#1a1a1a;background:#fafafa;line-height:1.7;
+      -webkit-font-smoothing:antialiased;
+    }
+    .container{max-width:720px;margin:0 auto;padding:48px 24px 80px}
+    header{padding-bottom:24px;border-bottom:1px solid #e5e5e5;margin-bottom:32px}
+    h1{font-size:28px;font-weight:800;letter-spacing:-0.5px;margin-bottom:8px}
+    .sub{font-size:14px;color:#666}
+    h2{font-size:18px;font-weight:700;margin:32px 0 12px;letter-spacing:-0.3px}
+    p{font-size:15px;color:#333;margin-bottom:8px}
+    ul{padding-left:20px;margin-bottom:8px}
+    li{font-size:15px;color:#333;margin-bottom:4px}
+    .card{background:#fff;border:1px solid #e5e5e5;border-radius:12px;padding:20px 24px;margin-bottom:16px}
+    .lang-divider{border-top:2px solid #e5e5e5;margin:48px 0;padding-top:32px}
+    .email{color:#D4970A;font-weight:600;text-decoration:none}
+    .badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#FFF7DC;color:#7A5500;font-size:12px;font-weight:600;margin-bottom:12px}
+    .note{background:#FFF8E1;border-left:3px solid #F5B800;padding:12px 14px;border-radius:6px;font-size:14px;color:#5C4400;margin:12px 0}
+    footer{margin-top:48px;padding-top:24px;border-top:1px solid #e5e5e5;font-size:13px;color:#888;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>모아모아 — 데이터 삭제 요청</h1>
+      <p class="sub">Moa Moa Personal Finance · 개발자: 모아모아 팀</p>
+    </header>
+
+    <!-- ─── 한국어 ─── -->
+    <section>
+      <div class="badge">한국어</div>
+
+      <p>모아모아는 계정을 유지한 채로도 데이터의 <strong>일부 또는 전체를 삭제</strong>할 수 있도록 다양한 옵션을 제공합니다.</p>
+
+      <h2>1. 앱 내 직접 삭제 (즉시 처리)</h2>
+      <div class="card">
+        <p><strong>지출 내역 삭제</strong></p>
+        <ul>
+          <li>내역 탭 → 지출 행 길게 누르기 → 다중 선택 → <strong>삭제</strong></li>
+          <li>또는 지출 카드 탭 → 우상단 메뉴 → <strong>삭제</strong></li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>가계부 삭제</strong></p>
+        <ul>
+          <li>설정 → 가계부 관리 → 길게 누르기 → 다중 선택 → <strong>삭제</strong></li>
+          <li>또는 가계부 상세 → 위험 영역 → <strong>가계부 삭제</strong></li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>영수증 이미지 삭제</strong></p>
+        <ul>
+          <li>해당 지출 삭제 시 연결된 영수증 이미지도 자동 삭제</li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>알림 삭제</strong></p>
+        <ul>
+          <li>알림 인박스 → 선택 모드 → <strong>삭제</strong> (개별/일괄)</li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>카테고리 삭제</strong></p>
+        <ul>
+          <li>설정 → 카테고리 관리 → 개별 카테고리 삭제 또는 숨김 처리</li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>AI 채팅 기록 삭제</strong></p>
+        <ul>
+          <li>연결된 지출을 삭제하면 해당 채팅 메시지도 함께 삭제</li>
+        </ul>
+      </div>
+
+      <h2>2. 이메일 요청 (특정 데이터 일괄 삭제)</h2>
+      <p>앱 내에서 처리하기 어려운 데이터 삭제는 이메일로 요청해주세요:</p>
+      <ul>
+        <li>받는 사람:
+          <a class="email" href="mailto:moa.official.kr@gmail.com">moa.official.kr@gmail.com</a></li>
+        <li>제목: <em>[모아모아] 데이터 삭제 요청</em></li>
+        <li>본문에 다음 내용을 포함해주세요:
+          <ul>
+            <li>가입 이메일 주소</li>
+            <li>삭제하고 싶은 데이터 (예: 2025년 이전 모든 지출, 특정 가계부의 영수증 전부 등)</li>
+          </ul>
+        </li>
+      </ul>
+      <div class="note">📩 요청 접수 후 <strong>7일 이내</strong> 처리됩니다.</div>
+
+      <h2>3. 보관되는 데이터</h2>
+      <p>다음 데이터는 관련 법령에 따라 일정 기간 보관 후 자동 폐기됩니다:</p>
+      <ul>
+        <li>전자상거래 결제·환불 기록: <strong>5년</strong> (전자상거래법 제6조)</li>
+        <li>접속 로그·IP: <strong>3개월</strong> (통신비밀보호법 제15조의2)</li>
+      </ul>
+      <p>위 데이터의 개인정보(이름·이메일)는 익명화 처리됩니다.</p>
+
+      <h2>4. 전체 계정 삭제를 원하신다면</h2>
+      <p>모든 데이터를 한 번에 삭제하시려면 계정 삭제를 진행하세요:
+        <a class="email" href="account-deletion.html">→ 계정 삭제 요청 페이지</a>
+      </p>
+
+      <h2>5. 문의</h2>
+      <p>데이터 관리 관련 문의:
+        <a class="email" href="mailto:moa.official.kr@gmail.com">moa.official.kr@gmail.com</a>
+      </p>
+    </section>
+
+    <!-- ─── English ─── -->
+    <section class="lang-divider">
+      <div class="badge">English</div>
+
+      <p>Moa Moa allows you to delete <strong>part or all of your data</strong> while keeping your account active.</p>
+
+      <h2>1. In-app deletion (instant)</h2>
+      <div class="card">
+        <p><strong>Delete expense entries</strong></p>
+        <ul>
+          <li>History tab → long-press an expense → multi-select → <strong>Delete</strong></li>
+          <li>Or tap an expense card → top-right menu → <strong>Delete</strong></li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>Delete a book (account-book)</strong></p>
+        <ul>
+          <li>Settings → Manage books → long-press → multi-select → <strong>Delete</strong></li>
+          <li>Or open book detail → Danger zone → <strong>Delete book</strong></li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>Delete receipt images</strong></p>
+        <ul>
+          <li>Deleting an expense also removes its attached receipt image</li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>Delete notifications</strong></p>
+        <ul>
+          <li>Notification inbox → selection mode → <strong>Delete</strong> (individual or bulk)</li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>Delete categories</strong></p>
+        <ul>
+          <li>Settings → Manage categories → delete or hide individual categories</li>
+        </ul>
+
+        <p style="margin-top:12px"><strong>Delete AI chat history</strong></p>
+        <ul>
+          <li>Deleting the linked expense also removes the related chat message</li>
+        </ul>
+      </div>
+
+      <h2>2. Email request (bulk-specific data)</h2>
+      <p>For data you cannot delete in-app, email us:</p>
+      <ul>
+        <li>To: <a class="email" href="mailto:moa.official.kr@gmail.com">moa.official.kr@gmail.com</a></li>
+        <li>Subject: <em>[Moa Moa] Data deletion request</em></li>
+        <li>Please include:
+          <ul>
+            <li>Email used to sign up</li>
+            <li>What data to delete (e.g., all expenses before 2025, all receipts in a specific book, etc.)</li>
+          </ul>
+        </li>
+      </ul>
+      <div class="note">📩 Requests are processed <strong>within 7 days</strong>.</div>
+
+      <h2>3. Data that will be retained</h2>
+      <p>The following are retained for a limited period as required by Korean law, then permanently deleted:</p>
+      <ul>
+        <li>E-commerce payment/refund records: <strong>5 years</strong> (Act on Consumer Protection in Electronic Commerce, Article 6)</li>
+        <li>Access logs / IP: <strong>3 months</strong> (Protection of Communications Secrets Act, Article 15-2)</li>
+      </ul>
+      <p>Personal identifiers (name, email) in the retained data are anonymized.</p>
+
+      <h2>4. Want to delete the whole account?</h2>
+      <p>To delete everything at once, see our account deletion page:
+        <a class="email" href="account-deletion.html">→ Account deletion request</a>
+      </p>
+
+      <h2>5. Contact</h2>
+      <p>Questions about data management:
+        <a class="email" href="mailto:moa.official.kr@gmail.com">moa.official.kr@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      © 2026 모아모아 · Last updated: 2026-05-20
+    </footer>
+  </div>
+</body>
+</html>
